@@ -1,0 +1,56 @@
+.about-container{
+    padding: 30px;
+    background: linear-gradient(#4c4b4b, #5252520e), url("../../assets/images/food6.jpg");
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    border-radius: 10px;
+    margin: 30px auto;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    gap: 0 20px;
+    width: 100%;
+}
+.abtbtn{
+    padding: 10px 35px;
+    border-radius: 25px;
+    background-color: #111;
+    color: #f5f5f7;
+}
+.topbar>p{
+    color: #f5f5f7;
+    /* color: #252525; */
+    font-size: 22px;
+    width: 80%;
+    margin: 0;
+}
+.bottombar{
+    /* display: flex; */
+    justify-content: space-between;
+}
+   .bar-card{
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    
+   } 
+   .bar-card>h4{
+    font-size: 32px;
+   }
+   .bar-card>p{
+    font-size: 24px;
+    color: #686868;
+   }
+.bar1>h4{
+    font-size: 32px;
+}
+.bar1>p{
+    margin: 0;
+    z-index: 2;
+}

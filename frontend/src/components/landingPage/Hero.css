@@ -1,0 +1,43 @@
+.hero{
+    width: 100%;
+    height: calc(100vh - 70px);
+}
+.hero-section{
+    /* border: 1px solid #111; */
+    /* height: 80%; */
+    padding: 20px 0;
+}
+.row{
+    /* height: 100%; */
+}
+.hero-left-div, .hero-right-div{
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.hero-left>h1{
+    font-size: 68px;
+    font-weight: 600;
+}
+.hero-left>p{
+    font-size: 24px;
+    color: #686868;
+}
+.recbtn{
+    padding: 10px 20px;
+    border-radius: 27px;
+    background-color: #111;
+    color: #f5f5f7;
+    
+}
+.hero-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #111; */
+}
+.heroimg{
+    width: 80%;
+}

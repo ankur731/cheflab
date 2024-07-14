@@ -1,0 +1,15 @@
+# First Download the data file from belo link and paste in inside backend folder
+
+CSV Data file 
+https://drive.google.com/file/d/1h8Khzkixg4j5bK9jkgBlkyi_VYJRCvI5/view?usp=sharing
+
+# Frontend (react js)
+Steps
+1. cd frontend
+2. npm i
+3. npm start
+
+#backend (server built with python fastapi )
+steps
+1. uvicorn:main.py
+ 
